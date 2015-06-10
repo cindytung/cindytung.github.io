@@ -1,0 +1,32 @@
+body {
+	background-color: #FFDAE9;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+#headshot {
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 75%;
+}
+
+#intro {
+	background-color: #DAE4FF;
+	overflow: hidden;
+}
+
+#aboutme {
+	width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}

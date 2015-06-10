@@ -1,9 +1,13 @@
 body {
-	background-color: #FFDAE9;
+	margin:0;
+	padding:0;
+	border: 0;
 }
 
 h1 {
 	text-align: center;
+	font-size: 30px;
+	color: white;
 }
 
 h2 {
@@ -20,12 +24,12 @@ h2 {
 }
 
 #intro {
-	background-color: #DAE4FF;
+	background-color: #3D1FC1;
 	overflow: hidden;
 }
 
 #meinfo {
-	background-color: #F6FFCE;
+	background-color: #F7908A;
 	overflow: hidden;
 }
 

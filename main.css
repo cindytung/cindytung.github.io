@@ -24,6 +24,11 @@ h2 {
 	overflow: hidden;
 }
 
+#meinfo {
+	background-color: #F6FFCE;
+	overflow: hidden;
+}
+
 #aboutme {
 	width: 800px;
 	display: block;

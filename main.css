@@ -6,7 +6,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 45px;
 	color: white;
 	font-style: "Helvetica Neue Light";
 }
@@ -35,6 +35,8 @@ h2 {
 #meinfo {
 	background-color: #343435;
 	overflow: hidden;
+	color: white;
+	font-size: 40px;
 }
 
 #aboutme {

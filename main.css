@@ -33,9 +33,9 @@ h2 {
 }
 
 #meinfo {
+	color: white;
 	background-color: #343435;
 	overflow: hidden;
-	color: white;
 	font-size: 40px;
 }
 

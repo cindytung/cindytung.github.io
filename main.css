@@ -12,6 +12,7 @@ h1 {
 }
 
 h2 {
+	background-image: url("backdrop.img");
 	text-align: center;
 	font-weight: bold;
 	font-style: "Helvetica Neue";
@@ -28,9 +29,8 @@ h2 {
 
 #intro {
 	/*background-color: #3D1FC1;*/
-	/*background-color: #000066;*/
-	background-image: url("backdrop.img");
-	/*overflow: hidden;*/
+	background-color: #000066;
+	overflow: hidden;
 }
 
 #meinfo {

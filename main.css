@@ -30,8 +30,8 @@ h2 {
 	/*background-color: #3D1FC1;*/
 	/*background-color: #000066;*/
 	/*background-image: url("backdrop.img");*/
-	background: url("backdrop.jpeg") repeat 0 0;
-	background-size: contain;
+	background: url("blurred_backdrop.jpeg") repeat 0 0;
+	background-size: cover;
 	overflow: hidden;
 }
 

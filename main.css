@@ -12,7 +12,6 @@ h1 {
 }
 
 h2 {
-	background-image: url("backdrop.img");
 	text-align: center;
 	font-weight: bold;
 	font-style: "Helvetica Neue";
@@ -29,7 +28,9 @@ h2 {
 
 #intro {
 	/*background-color: #3D1FC1;*/
-	background-color: #000066;
+	/*background-color: #000066;*/
+	/*background-image: url("backdrop.img");*/
+	background: url("backdrop.jpeg") repeat 0 0;
 	overflow: hidden;
 }
 

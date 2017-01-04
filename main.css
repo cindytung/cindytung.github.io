@@ -1,7 +1,13 @@
 .content {
   width: 50%;
   margin-left: 10%;
-  margin-top: 8%;
+  margin-top: 2%;
+}
+
+.front-content {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 
 p, ul, li {
@@ -9,12 +15,14 @@ p, ul, li {
 }
 
 a:link, a:visited {
-  color: #c16667;
+  font-family: 'Raleway', sans-serif;
+  color: #529c83;
   background-color: transparent;
   text-decoration: none
 }
 
 a:hover {
+  font-family: 'Raleway', sans-serif;
   color: #050589;
   background-color: transparent;
   text-decoration: none

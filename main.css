@@ -1,0 +1,14 @@
+.content {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}

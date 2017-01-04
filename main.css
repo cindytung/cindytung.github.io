@@ -4,11 +4,29 @@
   margin-top: 8%;
 }
 
-p {
-  font-family: 'Raleway', sans-serif;
+p, ul, li {
+  font-family: 'Raleway', sans-serif
+}
+
+a:link, a:visited {
+  color: #c16667;
+  background-color: transparent;
+  text-decoration: none
+}
+
+a:hover {
+  color: #050589;
+  background-color: transparent;
+  text-decoration: none
 }
 
 .heading {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  color: #c16667;
+}
+
+.bookHeading {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }

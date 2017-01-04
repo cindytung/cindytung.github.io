@@ -2,6 +2,13 @@
   width: 50%;
   margin-left: 10%;
   margin-top: 8%;
+  display:flex;
+  flex-direction: column;
+}
+
+.content .icons {
+  display:flex;
+  flex-direction: row;
 }
 
 p, ul, li {

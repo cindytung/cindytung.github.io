@@ -1,17 +1,18 @@
 .content {
-  width: 50%;
-  margin-left: 10%;
-  margin-top: 2%;
+  width: 80%;
+  max-width: 1000px;
+  margin: 30px auto 0 auto;
 }
 
 .front-content {
-  width: 50%;
-  margin-left: 10%;
-  margin-top: 10%;
+  width: 80%;
+  max-width: 1000px;
+  margin: 100px auto 0 auto;
 }
 
 p, ul, li {
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway', sans-serif;
+  max-width: 500px;
 }
 
 a:link, a:visited {
@@ -32,14 +33,17 @@ a:hover {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
   color: #c16667;
+  max-width: 500px;
 }
 
 .bookHeading {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
+  max-width: 500px;
 }
 
 .yearHeading {
   font-size:50px;
   font-family: 'Raleway', sans-serif;
+  max-width: 500px;
 }

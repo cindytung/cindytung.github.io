@@ -1,49 +1,137 @@
+.section {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 1040px) {
+    .section {
+        width:80%;
+    }
+}
+
 .content {
-  width: 80%;
-  max-width: 1000px;
-  margin: 30px auto 0 auto;
-}
-
-.front-content {
-  width: 80%;
-  max-width: 1000px;
-  margin: 100px auto 0 auto;
-}
-
-p, ul, li {
-  font-family: 'Raleway', sans-serif;
-  max-width: 500px;
-}
-
-a:link, a:visited {
-  font-family: 'Raleway', sans-serif;
-  color: #529c83;
-  background-color: transparent;
-  text-decoration: none
-}
-
-a:hover {
-  font-family: 'Raleway', sans-serif;
-  color: #050589;
-  background-color: transparent;
-  text-decoration: none
+  font-size: 18px;
+  color: #585858;
+  line-height: 28px;
 }
 
 .heading {
-  font-size: 25px;
-  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
   color: #c16667;
-  max-width: 500px;
+  font-weight: bolder;
+  padding: 10px;
 }
 
-.book-heading {
+.section .content a:link, .section a:visited {
+  color: #529c83;
+  background-color: transparent;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.section .content a:link::after {
+  background-color: currentColor;
+  bottom: 0;
+  content: '';
+  display: inline-block;
+  height: 2.5px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  -moz-transition: left 0.15s ease-out,right 0.15s ease-out;
+  -o-transition: left 0.15s ease-out,right 0.15s ease-out;
+  -webkit-transition: left 0.15s ease-out,right 0.15s ease-out;
+  transition: left 0.15s ease-out,right 0.15s ease-out;
+}
+
+.section .content a:link:hover::after {
+  left: 50%;
+  right: 50%;
+  -moz-transition: left 0.15s ease-in,right 0.15s ease-in;
+  -o-transition: left 0.15s ease-in,right 0.15s ease-in;
+  -webkit-transition: left 0.15s ease-in,right 0.15s ease-in;
+  transition: left 0.15s ease-in,right 0.15s ease-in;
+}
+
+.library-section {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.library-section a:link, .library-section a:visited {
+  color: #c16667;
+  background-color: transparent;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.library-year-heading {
+  color: #585858;
+  font-size: 40px;
+  max-width: 500px;
+  padding-top: 10px;
+}
+
+.library-shelf-heading {
+  color: #585858;
   font-size: 25px;
-  font-family: 'Raleway', sans-serif;
   max-width: 500px;
+  padding-top: 10px;
 }
 
-.year-heading {
-  font-size:50px;
-  font-family: 'Raleway', sans-serif;
-  max-width: 500px;
+.library-book-title {
+  font-size: 18px;
+  margin: 4px auto;
+}
+
+.library-book-author {
+  color: #585858; /* grey */
+  font-size: 15px;
+}
+
+.title-row {
+  color: #696969;
+  font-weight: bold;
+  margin: 8px auto;
+}
+
+.title-row::after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.resume-title {
+  float: left;
+  text-align: left;
+}
+
+.resume-heading {
+  color: #585858; /* grey */
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.resume-date {
+  float: right;
+}
+
+.resume-detail {
+  font-size: 14px;
+  text-align: left;
+}
+
+@media screen and (max-width: 655px) {
+    .resume-date {
+        display: none;
+    }
 }

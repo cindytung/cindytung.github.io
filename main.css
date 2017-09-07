@@ -64,6 +64,14 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.library-section .back {
+  font-size: 45px;
+}
+
+.library-section .back a:hover {
+  color: #529c83;
+}
+
 .library-section a:link, .library-section a:visited {
   color: #c16667;
   background-color: transparent;
@@ -89,6 +97,10 @@
 .library-book-title {
   font-size: 18px;
   margin: 4px auto;
+}
+
+.library-book-title a:hover {
+  color: #529c83;
 }
 
 .library-book-author {
